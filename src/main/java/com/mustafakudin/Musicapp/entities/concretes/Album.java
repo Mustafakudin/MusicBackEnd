@@ -9,6 +9,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -23,7 +25,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@PrimaryKeyJoinColumn(name = "album_id")
+@PrimaryKeyJoinColumn(name = "album_id",referencedColumnName = "id")
 public class Album {
 	@Id
 	@Column(name="id")
@@ -38,5 +40,4 @@ public class Album {
 	@Column(name="album_kind")
 	private String albumKind;
 	
-
 }

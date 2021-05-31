@@ -11,8 +11,7 @@ import com.mustafakudin.Musicapp.entities.concretes.User;
 
 public interface UserService {
 	DataResult<List<User>> getAll();
-	Result add(Album album);
-	Result add(Artist artist);
-	Result add(Song song);
+	DataResult<List<User>> getBySubscribeType(boolean subscribeType); 
+
 	
 }
