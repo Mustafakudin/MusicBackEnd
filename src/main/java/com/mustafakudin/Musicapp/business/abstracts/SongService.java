@@ -7,5 +7,5 @@ import com.mustafakudin.Musicapp.entities.concretes.Song;
 
 public interface SongService {
 	DataResult<List<Song>> getAll();
-	
+	//
 }

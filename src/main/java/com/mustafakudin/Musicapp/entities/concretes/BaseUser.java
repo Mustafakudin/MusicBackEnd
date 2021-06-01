@@ -30,7 +30,7 @@ public class BaseUser { // entity
 	@Column(name="id")
 	private int id;
 	@Column(name="email")
-	private String eamil;
+	private String email;
 	@Column(name="password")
 	private String password;
 

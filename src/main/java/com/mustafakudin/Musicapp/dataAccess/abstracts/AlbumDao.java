@@ -6,6 +6,6 @@ import com.mustafakudin.Musicapp.entities.concretes.Album;
 
 public interface AlbumDao extends JpaRepository<AlbumDao, Integer> {
 
-	Album getById(int albumId);
+	//Album getById(int albumId);
 	Album getByName(String albumName);
 }

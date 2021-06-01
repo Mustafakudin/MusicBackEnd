@@ -17,8 +17,8 @@ public interface AdminService {
 	DataResult<List<Song>>  getBySongName(String songName);
 	DataResult<List<Artist>> getByArtistName(String artistName);
 //	DataResult<List<Admin>> getall(); 1 adminimiz var 
-	Result add(Album album);
-	Result add(Artist artist);
+	Result add(Album album); 
+	Result add(Artist artist); 
 	Result add(Song song);
 
 }

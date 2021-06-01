@@ -12,6 +12,8 @@ import com.mustafakudin.Musicapp.entities.concretes.User;
 public interface UserService {
 	DataResult<List<User>> getAll();
 	DataResult<List<User>> getBySubscribeType(boolean subscribeType); 
+	DataResult<List<User>> getById(String userId);
+	Result add(User user);
 
 	
 }

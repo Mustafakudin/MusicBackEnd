@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 @PrimaryKeyJoinColumn(name="id", referencedColumnName = "id")
 
 public class Admin extends BaseUser {
-		@Column(name="first_name")
+		@Column(name="first_name")  // base user
 		private String firstName ;
 		
 		@Column(name="last_name")
