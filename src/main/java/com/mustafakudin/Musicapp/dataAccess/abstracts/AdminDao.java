@@ -11,11 +11,11 @@ import com.mustafakudin.Musicapp.entities.concretes.Song;
 
 public interface AdminDao extends JpaRepository<Admin, Integer> {
 	
-	// List<Admin> getById(int Id);
-//	List<Album> getByAlbumName(String albumName);  // şimdilik pageable kalsın 
-//	List<Song>  getBySongName(String songName);
-//	List<Artist> getByArtistName(String artistName); // bunları kendı daolarına al sonra apıde ekleme yap 
-//	List<Song>getBySongNameContains(String songName);
+	// List<Admin> getById(int Id); // default olarak olusuyor
+	// şimdilik pageable kalsın 
+
+ // bunları kendı daolarına al sonra apıde ekleme yap 
+
 	
 	
 
